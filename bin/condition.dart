@@ -7,7 +7,7 @@ void main() {
     print("You can't vote");
   }
   //if else 
-  int percentage = 90;
+  int percentage = 10;
 
   if (percentage >= 80){
     print("Your grade is A+");
@@ -23,18 +23,30 @@ void main() {
   } else {
     print("You are fail");
   }
-// bigger number
+
+  int number = 20;
+
+  if (number >= 0 && number >= 10 ){
+    print("between 0 to 10");
+  } else if ( number >= 11 && number >= 20){
+    print("between 11 to 20");
+  } else {
+    print("worng");
+  }
+
+// turnary oparetor
   int a = 5;
   int b = 10;
   int bigger;
-
   bigger = a > b ? a : b;
   print(bigger);
+
+
 // swith
-  int select = 1;
+  int select = 3;
   switch (select){
     case 1: 
-      print(" You select 1");
+      print("You select 1");
       break;
     
     case 2: 
