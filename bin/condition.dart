@@ -23,7 +23,7 @@ void main() {
   } else {
     print("You are fail");
   }
-
+//if else &&
   int number = 20;
 
   if (number >= 0 && number >= 10 ){
