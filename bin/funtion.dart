@@ -28,6 +28,6 @@ int cube ( int a ){
   return a * a * a ;
 }
 
-int cubef2 (int x){
-  return square(x)*x;
+int cubef2 (int p){
+  return square(p)*p;
 }
