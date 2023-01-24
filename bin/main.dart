@@ -29,4 +29,9 @@ print(mynote);
 int a = 100;
 int b = 200;
 print("${a} + ${b} = ${a+b}");
+
+ int x = 20;
+ double y = 2.5;
+
+ print(x+y);
 }
